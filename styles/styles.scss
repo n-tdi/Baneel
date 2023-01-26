@@ -125,7 +125,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 1rem 0;
-    .image-top {
+    .image-wrap {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -139,6 +139,20 @@ main {
     .description-below {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .cycle-description {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .cycle-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
 }
 
@@ -154,7 +168,6 @@ main {
 /* Scrolling Text */
 .rw-sentence{
 	margin: 0;
-	text-align: left;
 }
 .rw-sentence span{
 	color: #444;
@@ -163,9 +176,6 @@ main {
 }
 .rw-words{
 	display: inline-flex;
-	text-indent: 10px;
-    align-items: center;
-    justify-content: center;
 }
 .rw-words-1 span{
 	position: absolute;

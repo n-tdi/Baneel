@@ -109,18 +109,30 @@ main .content-wrap .block-breaker {
   align-items: center;
   margin: 1rem 0;
 }
-.intro-block .image-top {
+.intro-block .image-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.intro-block .image-top .hello-svg {
+.intro-block .image-wrap .hello-svg {
   width: 30%;
   height: 30%;
 }
 .intro-block .description-below {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-block .description-below .cycle-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-block .description-below .cycle-description .cycle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .baneel {
@@ -135,7 +147,6 @@ main .content-wrap .block-breaker {
 /* Scrolling Text */
 .rw-sentence {
   margin: 0;
-  text-align: left;
 }
 
 .rw-sentence span {
@@ -146,9 +157,6 @@ main .content-wrap .block-breaker {
 
 .rw-words {
   display: inline-flex;
-  text-indent: 10px;
-  align-items: center;
-  justify-content: center;
 }
 
 .rw-words-1 span {
