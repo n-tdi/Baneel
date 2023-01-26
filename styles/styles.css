@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #303030;
+  background-color: #262626;
 }
 
 .header {
@@ -101,10 +101,11 @@ body {
 main {
   position: relative;
   min-height: 100vh;
+  background-color: #303030;
 }
 
 .content-wrap {
-  padding-bottom: 2.5rem;
+  padding-bottom: 5rem;
 }
 
 footer {
@@ -127,7 +128,11 @@ footer {
   bottom: 0;
   position: absolute;
   width: 100%;
-  height: 2.5rem;
-  font-size: 0.8rem;
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+footer .footer-underline {
+  color: azure;
 }
 /*# sourceMappingURL=styles.css.map */
