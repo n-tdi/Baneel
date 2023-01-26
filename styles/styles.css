@@ -34,6 +34,7 @@ body {
 .header .header-left .header-left_title {
   color: #f7ff66;
   font-weight: 500;
+  font-size: 5rem;
 }
 
 .header .header-left .header-left_icon {
@@ -133,6 +134,11 @@ footer {
 }
 
 footer .footer-underline {
+  text-decoration: none;
   color: azure;
+}
+
+footer .footer-underline:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
